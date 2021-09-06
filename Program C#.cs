@@ -35,8 +35,8 @@ namespace homework
             }
 
             Console.WriteLine();
-            Console.WriteLine("размер типа данных int равен " + sizeof(int));
-            Console.WriteLine("размер типа данных float равен " + sizeof(float));
+            Console.WriteLine("размер типа данных int равен " + sizeof(int) + " bytes");
+            Console.WriteLine("размер типа данных float равен " + sizeof(float) + " bytes");
             Console.ReadKey();
             }
     }
