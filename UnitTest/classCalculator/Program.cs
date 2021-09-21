@@ -18,7 +18,7 @@ namespace calculator
 
             if (operation == "-")
             {
-                return a - b;
+                return (a - b);
 
             }
             if (operation == "*")
@@ -35,8 +35,6 @@ namespace calculator
                 return (a / b);
                 try
                 {
-
-
                     if (b == 0)
                     {
                         Console.WriteLine("Вы не можете делить на ноль");
@@ -51,10 +49,7 @@ namespace calculator
                 {
                     Console.WriteLine("Ошибка ввода");
                 }
-
-
             }
-
             return 0;
         }
         static public void Main()
@@ -69,6 +64,5 @@ namespace calculator
             double res = CalculatorChecker.ValidateCalculator(aa, ba, "*");
             Console.WriteLine("result: " + res);
         }
-
     }
 }
