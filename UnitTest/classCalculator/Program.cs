@@ -67,7 +67,7 @@ namespace calculator
             Console.WriteLine("Введите число 2");
             ba = Convert.ToDouble(Console.ReadLine());
             double res = CalculatorChecker.ValidateCalculator(aa, ba, "*");
-            Console.WriteLine("res" + res);
+            Console.WriteLine("result: " + res);
         }
 
     }
