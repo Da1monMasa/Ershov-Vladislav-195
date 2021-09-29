@@ -4,11 +4,11 @@
   <li>Создан токен через настройки профиля > Developer settings > Personal access tokens > Generate new token. выбрать repo.</li>
   <li>Был загружен проект на github с помощью ряда команд:
     <ul>
-       <li>1. git init</li>
-       <li>2. git add .</li>
-       <li>3. git commin -m "comment"</li>
-       <li>4. git remote add origin https://github.com/vlayerrt/название_репозитория.git</li>
-       <li>5. git push "https://username:token@github.com/vlayerrt/repname.git"</li>
+       <li>git init</li>
+       <li>git add .</li>
+       <li>git commin -m "comment"</li>
+       <li>git remote add origin https://github.com/vlayerrt/название_репозитория.git</li>
+       <li>git push "https://username:token@github.com/vlayerrt/repname.git"</li>
     </ul>
   </li>
   <li>Был копирован проект с git на локальный компьютер с помощью git clone https://github.com/vlayerrt/название_репозитория.git
