@@ -6,7 +6,7 @@
     <ul>
        <li>git init</li>
        <li>git add .</li>
-       <li>git commin -m "comment"</li>
+       <li>git commit -m "comment"</li>
        <li>git remote add origin https://github.com/vlayerrt/название_репозитория.git</li>
        <li>git push "https://username:token@github.com/vlayerrt/repname.git"</li>
     </ul>
